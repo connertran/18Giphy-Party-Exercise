@@ -1,0 +1,57 @@
+*{
+  font-family: Arial;
+}
+body{
+  background-color:grey;
+}
+h1{
+  font-weight: 800;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search-btn, .delete-btn{
+  padding: 10px 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.search-btn{
+  background-color: rgb(0, 208, 0);
+}
+.delete-btn{
+  background-color: red;
+}
+.search-btn:hover, .delete-btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+.search-btn:active{
+  background-color: hsl(120, 100%, 45%);
+}
+.delete-btn:active{
+  background-color: hsl(0, 100%, 60%);
+}
+
+.search-bar{
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+.form-div{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div-for-memes{
+  margin-top: 20px;
+}
+
+.gif-size{
+  width: 400px;
+  margin-right: 10px;
+}
